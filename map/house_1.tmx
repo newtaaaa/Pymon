@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="24">
+ <tileset firstgid="1" source="builds.tsx"/>
+ <tileset firstgid="776" source="deco2.tsx"/>
+ <layer id="1" name="bg" width="10" height="10">
+  <data encoding="csv">
+243,261,261,261,261,261,261,261,261,243,
+274,292,292,292,292,292,292,292,292,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,243,
+305,300,300,300,300,300,300,300,300,274,
+305,276,277,278,300,300,276,277,278,305
+</data>
+ </layer>
+ <layer id="2" name="deco" width="10" height="10">
+  <data encoding="csv">
+353,353,354,355,364,365,366,8777,8778,0,
+0,384,385,386,395,396,397,8777,8778,0,
+0,415,416,417,426,427,428,8777,8778,0,
+0,0,0,0,0,0,494,495,496,0,
+0,0,0,450,451,452,2147484097,2147484096,0,0,
+0,0,0,481,482,483,2147484128,2147484127,0,0,
+0,0,0,512,513,514,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,494,495,496,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" name="exit_house" type="collision" x="63" y="144.667" width="33.3333" height="14.6667" visible="0"/>
+  <object id="2" name="player" x="67.4711" y="114.438">
+   <point/>
+  </object>
+  <object id="4" type="collision" x="0.333333" y="0" width="15.6667" height="159.333"/>
+  <object id="5" type="collision" x="143" y="61.3333" width="17" height="99"/>
+  <object id="6" type="collision" x="16" y="0.333333" width="15" height="31"/>
+  <object id="7" type="collision" x="61" y="1.33333" width="16.3333" height="29.6667"/>
+  <object id="9" type="collision" x="78.6667" y="12.6667" width="29.6667" height="28.6667"/>
+  <object id="11" type="collision" x="61.6667" y="74.6667" width="31.6667" height="30"/>
+  <object id="12" name="npc" type="collision" x="96" y="77.3864" width="18.8471" height="16.8508"/>
+  <object id="16" type="collision" x="30.7273" y="0.545455" width="30.3636" height="30"/>
+  <object id="17" type="collision" x="16.6667" y="143.667" width="47.6667" height="15.3333"/>
+  <object id="18" type="collision" x="96" y="144" width="47.3333" height="16.3333"/>
+  <object id="19" name="stage_entry" x="113.833" y="43.4167" width="29.0833" height="9.0417"/>
+  <object id="20" name="player2" x="114.167" y="49.4167">
+   <point/>
+  </object>
+  <object id="21" type="collision" x="144.25" y="0.0833" width="16.0833" height="61.5833"/>
+  <object id="23" type="exit_house" x="66.6527" y="156.583" width="26.7808" height="1.83402"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="19">
+ <tileset firstgid="1" source="builds.tsx"/>
+ <tileset firstgid="776" source="deco2.tsx"/>
+ <tileset firstgid="21776" source="deco.tsx"/>
+ <layer id="1" name="bg" width="10" height="10">
+  <data encoding="csv">
+243,261,261,261,261,261,261,261,302,302,
+243,292,292,292,292,292,292,292,300,300,
+243,302,302,302,302,302,302,302,302,302,
+243,302,302,302,302,302,302,302,302,302,
+274,302,302,302,302,302,302,302,302,243,
+305,302,302,302,302,302,302,302,302,243,
+243,302,302,302,302,302,302,302,302,243,
+243,302,302,302,302,302,302,302,302,274,
+274,302,302,302,302,302,302,302,302,305,
+305,276,276,276,276,276,276,276,277,278
+</data>
+ </layer>
+ <layer id="2" name="deco" width="10" height="10">
+  <data encoding="csv">
+0,364,365,366,353,354,355,0,3221234250,3221234249,
+0,395,396,397,384,385,386,0,0,0,
+0,426,427,428,415,416,417,0,0,0,
+0,288,289,0,0,0,0,0,0,0,
+0,319,320,24586,24587,24588,0,0,0,0,
+0,350,351,24643,24644,24645,0,0,0,0,
+0,0,0,24700,24701,24702,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="2" name="player" x="130.314" y="17.5665">
+   <point/>
+  </object>
+  <object id="3" type="collision" x="0.333333" y="-0.333333" width="15.6667" height="159.667"/>
+  <object id="4" type="collision" x="17" y="143.333" width="142.333" height="16"/>
+  <object id="5" type="collision" x="144.333" y="64" width="16.3333" height="80.3333"/>
+  <object id="6" type="collision" x="31" y="12" width="30" height="30.3333"/>
+  <object id="7" type="collision" x="22.3333" y="63.3333" width="12.6667" height="29.3333"/>
+  <object id="9" type="collision" x="77.3333" y="12.3333" width="32" height="32"/>
+  <object id="10" type="collision" x="16.3333" y="15.3333" width="13.6667" height="16"/>
+  <object id="11" type="collision" x="61" y="15.3333" width="16.3333" height="15.6667"/>
+  <object id="15" name="exit_stage" x="128.655" y="0" width="28.6782" height="14.7714"/>
+  <object id="17" type="collision" x="111" y="0.333334" width="13.6899" height="28.0348"/>
+  <object id="18" type="collision" x="161.581" y="15" width="8.75188" height="47.6667"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,1 @@
+Route1: [Rattata (10, 20, 20), pidgey (5, 20, 20)]
